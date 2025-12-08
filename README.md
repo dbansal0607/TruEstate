@@ -157,8 +157,8 @@ Fetch available filter options (unique values for all filter fields)
 ## 🌐 Live Application & Backend
 
 - **Live frontend:** https://tru-estate-psi.vercel.app/
-- **Backend API (Render):** https://truestate-backend-xxxx.onrender.com/api
-
+- **Backend API (Render):** https://truestate-backend-qjwf.onrender.com
+  
 > The frontend calls the backend API at `VITE_API_BASE_URL` (set on Vercel).
 
 
