@@ -154,23 +154,13 @@ Fetch transactions with optional query parameters:
 ### GET /api/filters/options
 Fetch available filter options (unique values for all filter fields)
 
-## Deployment
+## 🌐 Live Application & Backend
 
-### Backend Deployment (Render/Railway)
+- **Live frontend:** https://tru-estate-psi.vercel.app/
+- **Backend API (Render):** https://truestate-backend-xxxx.onrender.com/api
 
-1. Push code to GitHub
-2. Connect repository to Render/Railway
-3. Set environment variables
-4. Deploy
+> The frontend calls the backend API at `VITE_API_BASE_URL` (set on Vercel).
 
-### Frontend Deployment (Vercel/Netlify)
-
-1. Push code to GitHub
-2. Connect repository to Vercel/Netlify
-3. Set build command: `npm run build`
-4. Set output directory: `dist`
-5. Add environment variable: `VITE_API_BASE_URL=<your-backend-url>/api`
-6. Deploy
 
 ## Features
 
