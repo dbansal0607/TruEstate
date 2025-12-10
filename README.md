@@ -73,7 +73,7 @@ Efficient pagination with state retention:
 ## Setup Instructions
 
 ### Prerequisites
-- Node.js 18+ installed
+- Node.js 18+ 
 - npm or yarn package manager
 
 ### Backend Setup
@@ -88,50 +88,6 @@ cd backend
 npm install
 ```
 
-3. Create `.env` file (or use `.env.example`):
-```env
-PORT=5000
-CSV_FILE_PATH=../truestate_assignment_dataset.csv
-CORS_ORIGIN=http://localhost:5173
-NODE_ENV=development
-```
-
-4. Start the server:
-```bash
-npm run dev
-```
-
-Backend will run on `http://localhost:5000`
-
-### Frontend Setup
-
-1. Navigate to frontend directory:
-```bash
-cd frontend
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Create `.env` file:
-```env
-VITE_API_BASE_URL=http://localhost:5000/api
-```
-
-4. Start the development server:
-```bash
-npm run dev
-```
-
-Frontend will run on `http://localhost:5173`
-
-### Running Both Servers
-
-Open two terminal windows and run:
-- Terminal 1: `cd backend && npm run dev`
-- Terminal 2: `cd frontend && npm run dev`
 
 ## API Endpoints
 
